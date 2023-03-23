@@ -7,7 +7,8 @@ const Layout = () => {
     <>
       <div className="App">
     <Nav />
-      <header className="header">
+    <Outlet />
+      {/* <header className="header">
         <h1 className="header__title">Welcome to my site!</h1>
         <p className="header__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
@@ -32,10 +33,10 @@ const Layout = () => {
       </main>
       <footer className="footer">
         <p className="footer__text">&copy; 2023 My Site. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
 
-      {/* <Outlet /> */}
+      
     </>
   )
 };

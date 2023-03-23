@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import './Nav.css';
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
@@ -12,7 +13,7 @@ function Nav() {
 
   return (
     <nav className="navigation">
-        <a href="/" className="brand-name">Portfolio</a>
+        <Link to="/" className="navbar-link">PortFolioLogo</Link>
         <div className ="hamburger"  onClick={() => {
           setIsNavExpanded(!isNavExpanded)
         }}>
@@ -28,19 +29,29 @@ function Nav() {
         }>
             <ul>
               <li className="navbar-item">
-                <a href="/" className="navbar-link">Accueil</a>
+                <Link to="/" className="navbar-link" onClick={() => {
+                setIsNavExpanded(!isNavExpanded)
+                }}>Home</Link>
               </li>
               <li className="navbar-item">
-                <a href="/about" className="navbar-link">Compétence</a>
+                <Link to="/competence" className="navbar-link" onClick={() => {
+                setIsNavExpanded(!isNavExpanded)
+                }}>Competence</Link>
               </li>
               <li className="navbar-item">
-                <a href="/services" className="navbar-link">Projet</a>
+                <Link to="/projet" className="navbar-link" onClick={() => {
+                setIsNavExpanded(!isNavExpanded)
+                }}>Projet</Link>
               </li>
               <li className="navbar-item">
-                <a href="/portfolio" className="navbar-link">Moi</a>
+                <Link to="/presentation" className="navbar-link" onClick={() => {
+                setIsNavExpanded(!isNavExpanded)
+                }}>Presentation</Link>
               </li>
               <li className="navbar-item">
-                <a href="/contact" className="navbar-link">Contact</a>
+                <Link to="/contact" className="navbar-link" onClick={() => {
+                setIsNavExpanded(!isNavExpanded)
+                }}>Contact</Link>
               </li>
             </ul>
             </div>
