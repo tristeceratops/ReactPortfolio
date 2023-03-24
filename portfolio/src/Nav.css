@@ -5,14 +5,14 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: black;
+  background-color: #FAFAFA;
+  color: #2B303A;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
 .brand-name {
   text-decoration: none;
-  color: black;
+  color: 2B303A;
   font-size: 1.3rem;
   margin-left: 1rem;
 }
@@ -31,7 +31,6 @@
 .navbar-link {
   text-decoration: none;
   display: block;
-  width: 100%;
 }
 
 .hamburger {
@@ -40,7 +39,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #31a2ff;
+  background-color: #068D9D;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -50,7 +49,7 @@
   display: none;
 }
 .hamburger:hover {
-  background-color: #e77d04;
+  background-color: #F87060;
 }
 
 /* @media screen and (max-width: 768px) { */
@@ -66,20 +65,24 @@
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: white;
-    border-top: 1px solid black;
+    background-color: #FAFAFA;
+    border-top: 1px solid #2B303A;
   }
   .navbar-item {
     text-align: center;
     margin: 0;
   }
   .navbar-link {
-    color: black;
-    width: 100%;
+    color: #2B303A;
     padding: 1.5rem 0;
   }
   .navbar-item:hover {
-    background-color: #eee;
+    background-color: #2B303A;
+
+  }
+
+  .navbar-item:hover .navbar-link{
+    color: #FAFAFA;
   }
 
   .navigation-menu.expanded ul {

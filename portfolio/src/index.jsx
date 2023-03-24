@@ -23,7 +23,7 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
