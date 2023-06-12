@@ -67,6 +67,7 @@
     height: calc(100vh - 77px);
     background-color: #FAFAFA;
     border-top: 1px solid #2B303A;
+    z-index: 1;
   }
   .navbar-item {
     text-align: center;
