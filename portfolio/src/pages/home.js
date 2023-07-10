@@ -24,7 +24,7 @@ const Home = () => {
       </div>
     </div>
       <div class="fixed-button-left">
-      <Link to="/competence" className="round-button"><FaArrowLeft/></Link>
+      <Link to="/contact" className="round-button"><FaArrowLeft/></Link>
       </div>
       <div class="fixed-button-right">
       <Link to="/competence" className="round-button"><FaArrowRight/></Link>
