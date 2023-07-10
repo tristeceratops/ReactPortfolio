@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /*CSS pour home.js*/
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f2f2f2;
+    background-color: #333;
+  }
+
+  .fixed-button-left {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .fixed-button-right {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .round-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #068D9D;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  
+  .round-button:hover {
+    background-color: #F87060;
+  }
+
+  

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from "react-icons";
-import './Nav.css';
+import './style/Nav.css';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

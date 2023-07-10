@@ -5,7 +5,7 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #FAFAFA;
+  background-color: #373737;
   color: #2B303A;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
@@ -82,7 +82,7 @@
 
   }
 
-  .navbar-item:hover .navbar-link{
+  .navbar-link:hover{
     color: #FAFAFA;
   }
 

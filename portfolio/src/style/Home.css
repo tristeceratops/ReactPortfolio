@@ -1,0 +1,71 @@
+.header {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .header__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .header_text {
+    font-size: 20px;
+    line-height: 1.2;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #home_presentation_box{
+    width: 40%;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+  }
+
+  #home_menu_box{
+    width: 10%;
+    padding: 40px;
+    margin: 40px;;
+    background:
+    linear-gradient(to right, rgb(156, 223, 2) 4px, transparent 4px) 0 0,
+    linear-gradient(to right, rgb(156, 223, 2) 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, rgb(156, 223, 2) 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, rgb(156, 223, 2) 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, rgb(156, 223, 2) 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, rgb(156, 223, 2) 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, rgb(156, 223, 2) 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, rgb(156, 223, 2) 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+
+  }
+
+  #home_menu_box ul{
+    list-style: none;
+  }
+
+  #home_menu_box ul li{
+    list-style: none;
+    width: 60%;
+    min-width: 120px;
+  }
+
+  .menu-button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .menu-button:hover{
+    background-color: #c4362b
+  }

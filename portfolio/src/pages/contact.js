@@ -1,4 +1,3 @@
-import "../presentation.css"
 import { IconContext } from "react-icons";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";

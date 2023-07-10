@@ -1,4 +1,3 @@
-import "../presentation.css"
 import { IconContext } from "react-icons";
 import { GiDiploma } from "react-icons/gi";
 import { AiOutlineSolution } from "react-icons/ai";

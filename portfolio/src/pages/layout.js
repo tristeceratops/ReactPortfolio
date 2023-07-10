@@ -1,7 +1,7 @@
 import { Outlet} from "react-router-dom";
 import React from "react";
 import Nav from "../Nav"
-import "../App.css";
+import "../style/App.css";
 const Layout = () => {
   return (
     <>
